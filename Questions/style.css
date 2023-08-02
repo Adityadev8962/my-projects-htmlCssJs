@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+/* Heading */
+.heading h1{
+    font-family: 'Dancing Script', cursive;
+    color: goldenrod;
+    text-align: center;
+    font-style: bold;
+    margin-top: 20px;
+}
+
+/* Card CSS */
+.mainCard{
+    margin-top: 20px;
+}
+
+.card2{
+    margin-top: 70px;
+}
+
+.card3{
+    margin-top: 140px;
+}
+
+.top_card{
+    background-color: #fff;
+    box-shadow: 0px 10px 20px #cacaca;
+    align-items: center;
+    letter-spacing: 2.3px;
+    color: #292929;
+    font-size: 13px;
+    float: left;
+    display: flex;
+    width: 450px;
+    height: 50px;
+    padding: 10px;
+}
+
+.top_card a{
+    margin-left: 65px;
+    font-size: 20px;
+    text-decoration: none;
+    color: goldenrod;
+    cursor: pointer;
+}
+
+.dwn_card{
+    background-color: #fff;
+    box-shadow: 0px 10px 20px #cacaca;
+    width: 450px;
+    height: 70px;
+    position: relative;
+    top: 55px;
+    padding: 0px 10px;
+    font-size: 13px;
+    display: none;
+}
+
+.dwn_card p{
+    position: relative;
+    top: -35px;
+}
